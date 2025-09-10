@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-blue text-white px-8 py-3 rounded-10 font-inter font-medium text-sm hover:bg-primary-blue/90 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-background-primary border border-border-light text-text-primary px-8 py-3 rounded-10 font-inter font-medium text-sm hover:bg-background-secondary transition-colors;
+  }
+  
+  .card {
+    @apply bg-background-primary rounded-12 p-6 border border-border-medium shadow-card;
+  }
+  
+  .category-tag {
+    @apply bg-background-neutral px-2 py-1 rounded-full text-text-primary font-inter font-medium text-xs;
+  }
+  
+  .timeline-item {
+    @apply min-w-[120px] bg-background-primary rounded-12 px-4 py-4 text-center font-inter font-medium text-sm text-text-primary border border-border-medium shadow-card;
+  }
+  
+  .timeline-item.active {
+    @apply bg-primary-blue text-white shadow-card-hover;
+  }
+  
+  .section-header {
+    @apply bg-gradient-to-r p-6 rounded-12 flex items-center justify-between;
+  }
+  
+  .section-header.politics {
+    @apply from-category-politics-bg to-category-politics-bg-light;
+  }
+  
+  .section-header.culture {
+    @apply from-category-culture-bg to-category-culture-bg-light;
+  }
+  
+  .section-header.sports {
+    @apply from-category-sports-bg to-category-sports-bg-light;
+  }
+  
+  .section-header.tech {
+    @apply from-category-tech-bg to-category-tech-bg-light;
+  }
+}
