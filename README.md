@@ -2,6 +2,23 @@
 
 Um jornal digital moderno e interativo construído com Vue 3, TypeScript e Tailwind CSS, baseado no design do Figma.
 
+> 📋 **Design Original**: [Visualizar no Figma](https://www.figma.com/design/plYpoHTWoMAxhAHMn5lRPg/jornal-template?node-id=1-1267&t=xKXHWVubotBkjVtr-4) - Compare com as imagens anexadas para verificar a fidelidade da implementação.
+
+## 📸 Comparação Visual
+
+### Design Original (Figma)
+![Design Original - Página Principal](images/figma-design-home.png)
+*Página principal com seção hero, timeline e destaques*
+
+![Design Original - Seção de Artigos](images/figma-design-articles.png)
+*Seção de artigos por categoria (Política)*
+
+### Implementação Atual
+![Implementação - Página Principal](images/implementation-home.png)
+*Implementação da página principal*
+
+> 💡 **Nota**: Para adicionar as imagens reais, salve os screenshots da implementação atual na pasta `images/` com os nomes especificados acima.
+
 ## 🚀 Características
 
 - **Design Responsivo**: Interface moderna e adaptável para diferentes dispositivos
